@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="black">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trade List</title>
+        <link href="./index.css" rel="stylesheet">
+        <script src="./index.js" defer></script>
+    </head>
+    <body class="flex min-h-screen p-4 flex-col gap-4">
+        <div class="tabs tabs-lift tabs-xl">
+            <input id="want-input" type="radio" name="tabs" class="tab" aria-label="Karten die ich brauche" checked="checked" />
+            <div class="tab-content bg-base-100 border-base-300 p-4">
+                <div class="flex flex-col gap-4">
+                    <div class="join w-1/3">
+                        <input id="needs-name-filter" type="text" class="input input-bordered input-neutral join-item rounded-l-2xl" placeholder="Namensfilter" oninput="filterNeeds()">
+                        <div class="dropdown">
+                            <div tabindex="0" id="needs-rarity-display" role="button" class="btn join-item flex w-20 items-center rounded-r-2xl">
+                                <span>Alle</span>
+                            </div>
+                            <ul tabindex="0" class="dropdown-content menu bg-base-300 rounded-box z-10 w-24 p-2 shadow">
+                                <li><a class="text-sm" onclick="setNeedsRarity('all')">Alle</a></li>
+                                <li><a onclick="setNeedsRarity('C Pocket')"><img data-rarity="C Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setNeedsRarity('U Pocket')"><img data-rarity="U Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setNeedsRarity('R Pocket')"><img data-rarity="R Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setNeedsRarity('RR Pocket')"><img data-rarity="RR Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setNeedsRarity('SA Pocket')"><img data-rarity="SA Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setNeedsRarity('SSASR Pocket')"><img data-rarity="SSASR Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setNeedsRarity('S Pocket')"><img data-rarity="S Pocket" class="h-3 object-contain"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="need-sets-accordions" class="join join-vertical bg-base-100 rounded-2xl"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" aria-label="Karten die ich habe" class="tab" />
+            <div class="tab-content bg-base-100 border-base-300 p-4">
+                <div class="flex flex-col gap-4">
+                    <div class="join w-1/3">
+                        <input id="have-name-filter" type="text" class="input input-bordered input-neutral join-item rounded-l-2xl" placeholder="Namensfilter" oninput="filterHave()">
+                        <div class="dropdown">
+                            <div tabindex="0" id="have-rarity-display" role="button" class="btn join-item flex w-20 items-center rounded-r-2xl">
+                                <span>Alle</span>
+                            </div>
+                            <ul tabindex="0" class="dropdown-content menu bg-base-300 rounded-box z-10 w-24 p-2 shadow">
+                                <li><a class="text-sm" onclick="setHaveRarity('all')">Alle</a></li>
+                                <li><a onclick="setHaveRarity('C Pocket')"><img data-rarity="C Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setHaveRarity('U Pocket')"><img data-rarity="U Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setHaveRarity('R Pocket')"><img data-rarity="R Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setHaveRarity('RR Pocket')"><img data-rarity="RR Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setHaveRarity('SA Pocket')"><img data-rarity="SA Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setHaveRarity('SSASR Pocket')"><img data-rarity="SSASR Pocket" class="h-3 object-contain"></a></li>
+                                <li><a onclick="setHaveRarity('S Pocket')"><img data-rarity="S Pocket" class="h-3 object-contain"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="have-sets-accordions" class="join join-vertical bg-base-100 rounded-2xl"></div>
+                </div>
+            </div>
+
+            <input id="trade-list-input" type="radio" name="tabs" aria-label="Angebotsübersicht" class="tab tab-disabled" />
+            <div class="tab-content bg-base-100 border-base-300 p-4">
+                <div class="flex flex-col gap-4">
+                    <div class="card flex w-1/2 h-fit p-4 flex-col gap-4 rounded-xl bg-base-300">
+                        <div class="flex items-center justify-between text-lg font-bold">
+                            <h3 class="px-2">Export</h3>
+                            <button class="btn btn-primary rounded-2xl" onclick="generateExport()">Export</button>
+                        </div>
+                        <textarea id="export-field" class="textarea textarea-neutral w-full resize-none rounded-2xl" placeholder="Tauschliste exportiert" spellcheck="false"></textarea>
+                    </div>
+                    <div id="trade-list" class="trade-list-grid grid"></div>
+                </div>
+            </div>
+        </div>
+        <div id="toast" class="toast toast-top toast-center"></div>
+    </body>
+</html>

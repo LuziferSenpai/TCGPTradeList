@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: black --default;
+};
+
+.set-accordion-content {
+    grid-template-columns: repeat(auto-fill, 200px);
+}
+
+.card-img {
+    aspect-ratio: auto 200 / 279;
+}
+
+.trade-list-grid {
+    grid-template-columns: repeat(auto-fill, 440px);
+}
+
+.divider-grid {
+    grid-template-columns: 119px 170px 119px;
+}

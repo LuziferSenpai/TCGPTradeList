@@ -1,0 +1,262 @@
+{
+    "A1 - Unschlagbare Gene": [
+        {
+            "index": 230,
+            "name": "Glumanda",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 231,
+            "name": "Gallopa",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 233,
+            "name": "Garados",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 234,
+            "name": "Lapras",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 235,
+            "name": "Lektrobal",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 238,
+            "name": "Digda",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 245,
+            "name": "Tauboss",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 246,
+            "name": "Mauzi",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 247,
+            "name": "Ditto",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A1a - Mysteriöse Insel": [
+        {
+            "index": 69,
+            "name": "Kokowei",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 70,
+            "name": "Serpiroyal",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 71,
+            "name": "Molunk",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 73,
+            "name": "Dedenne",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 74,
+            "name": "Marshadow",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A2 - Kollision von Raum und Zeit": [
+        {
+            "index": 161,
+            "name": "Gastrodon",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 163,
+            "name": "Sheinux",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 167,
+            "name": "Giratina",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 170,
+            "name": "Lucario",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 172,
+            "name": "Kryppuk",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 173,
+            "name": "Glibunkel",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 175,
+            "name": "Knakrack",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 179,
+            "name": "Regigigas",
+            "want": 0,
+            "have": 1
+        }
+    ],
+    "A2a - Licht des Triumphs": [
+        {
+            "index": 76,
+            "name": "Hundemon",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A2b - Glänzendes Festival": [
+        {
+            "index": 74,
+            "name": "Bamelin",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 75,
+            "name": "Nigiragi",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 76,
+            "name": "Affiti",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 77,
+            "name": "Monetigo",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 78,
+            "name": "Knuddeluff",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A3 - Hüter des Firmaments": [
+        {
+            "index": 156,
+            "name": "Alola-Kokowei",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 159,
+            "name": "Kapu-Toro",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 160,
+            "name": "Alola-Knogga",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 162,
+            "name": "Alola-Vulpix",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 164,
+            "name": "Kapu-Kime",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 166,
+            "name": "Kapu-Riki",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 167,
+            "name": "Wommel",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 169,
+            "name": "Sankabuh",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 170,
+            "name": "Kapu-Fala",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 179,
+            "name": "Koalelu",
+            "want": 1,
+            "have": 0
+        }
+    ],
+    "A3a - Dimensionale Krise": [
+        {
+            "index": 71,
+            "name": "Schabelle",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 74,
+            "name": "Amigento",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 75,
+            "name": "Kaguron",
+            "want": 0,
+            "have": 2
+        }
+    ]
+}
