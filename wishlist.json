@@ -1,6 +1,78 @@
 {
     "A1 - Unschlagbare Gene": [
         {
+            "index": 13,
+            "name": "Giflor",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 40,
+            "name": "Arkani",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 46,
+            "name": "Lavados",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 61,
+            "name": "Quappo",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 89,
+            "name": "Quajutsu",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 98,
+            "name": "Magneton",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 102,
+            "name": "Blitza",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 128,
+            "name": "Mewtu",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 132,
+            "name": "Guardevoir",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 159,
+            "name": "Kabutops",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 182,
+            "name": "Melmetal",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 210,
+            "name": "Aerodactyl",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 230,
             "name": "Glumanda",
             "want": 0,
@@ -57,6 +129,48 @@
     ],
     "A1a - Mysteriöse Insel": [
         {
+            "index": 6,
+            "name": "Serpiroyal",
+            "want": 0,
+            "have": 6
+        },
+        {
+            "index": 19,
+            "name": "Aquana",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 26,
+            "name": "Raichu",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 31,
+            "name": "Mew",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 45,
+            "name": "Geowaz",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 47,
+            "name": "Marshadow",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 60,
+            "name": "Tauros",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 69,
             "name": "Kokowei",
             "want": 0,
@@ -88,6 +202,84 @@
         }
     ],
     "A2 - Kollision von Raum und Zeit": [
+        {
+            "index": 24,
+            "name": "Magbrant",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 37,
+            "name": "Impoleon",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 46,
+            "name": "Glaziola",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 53,
+            "name": "Magnezone",
+            "want": 0,
+            "have": 6
+        },
+        {
+            "index": 65,
+            "name": "Togekiss",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 76,
+            "name": "Vesprit",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 78,
+            "name": "Giratina",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 82,
+            "name": "Rihornior",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 92,
+            "name": "Lucario",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 114,
+            "name": "Bollterus",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 123,
+            "name": "Knakrack",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 129,
+            "name": "Porygon-Z",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 143,
+            "name": "Regigigas",
+            "want": 0,
+            "have": 4
+        },
         {
             "index": 161,
             "name": "Gastrodon",
@@ -139,6 +331,30 @@
     ],
     "A2a - Licht des Triumphs": [
         {
+            "index": 13,
+            "name": "Heatran",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 41,
+            "name": "Despotar",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 50,
+            "name": "Iksbat",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 69,
+            "name": "Shaymin",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 76,
             "name": "Hundemon",
             "want": 0,
@@ -146,6 +362,54 @@
         }
     ],
     "A2b - Glänzendes Festival": [
+        {
+            "index": 7,
+            "name": "Maskagato",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 20,
+            "name": "Heerashai",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 28,
+            "name": "Pamomamo",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 31,
+            "name": "Simsala",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 39,
+            "name": "Machomei",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 51,
+            "name": "Affiti",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 57,
+            "name": "Monetigo",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 61,
+            "name": "Knuddeluff",
+            "want": 0,
+            "have": 1
+        },
         {
             "index": 74,
             "name": "Bamelin",
@@ -178,6 +442,36 @@
         }
     ],
     "A3 - Hüter des Firmaments": [
+        {
+            "index": 24,
+            "name": "Kapu-Toro",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 65,
+            "name": "Donarion",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 82,
+            "name": "Colossand",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 123,
+            "name": "Magearna",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 127,
+            "name": "Grandiras",
+            "want": 0,
+            "have": 4
+        },
         {
             "index": 156,
             "name": "Alola-Kokowei",
@@ -241,6 +535,48 @@
     ],
     "A3a - Dimensionale Krise": [
         {
+            "index": 5,
+            "name": "Silvarro",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 15,
+            "name": "Luxtra",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 21,
+            "name": "Zeraora",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 27,
+            "name": "Lamellux",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 42,
+            "name": "Anego",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 61,
+            "name": "Amigento",
+            "want": 0,
+            "have": 8
+        },
+        {
+            "index": 62,
+            "name": "Kaguron",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 71,
             "name": "Schabelle",
             "want": 1,
@@ -255,6 +591,788 @@
         {
             "index": 75,
             "name": "Kaguron",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A3b - Evoli-Hain": [
+        {
+            "index": 2,
+            "name": "Folipurba",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 8,
+            "name": "Flamara",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 16,
+            "name": "Aquana",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 17,
+            "name": "Glaziola",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 25,
+            "name": "Blitza",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 28,
+            "name": "Psiana",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 33,
+            "name": "Feelinara",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 43,
+            "name": "Nachtara",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 70,
+            "name": "Folipurba",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 74,
+            "name": "Blitza",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 76,
+            "name": "Feelinara",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 77,
+            "name": "Nachtara",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 78,
+            "name": "Evoli",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A4 - Weisheit von Meer und Himmel": [
+        {
+            "index": 3,
+            "name": "Blubella",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 10,
+            "name": "Meganie",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 15,
+            "name": "Papungha",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 22,
+            "name": "Skaraborn",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 29,
+            "name": "Tornupto",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 33,
+            "name": "Entei",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 48,
+            "name": "Impergator",
+            "want": 2,
+            "have": 0
+        },
+        {
+            "index": 61,
+            "name": "Krebutack",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 122,
+            "name": "Stahlos",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 162,
+            "name": "Endivie",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 163,
+            "name": "Blubella",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 167,
+            "name": "Karnimani",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 175,
+            "name": "Woingenau",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 176,
+            "name": "Skorgla",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 178,
+            "name": "Kramurx",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 179,
+            "name": "Despotar",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 182,
+            "name": "Hoothoot",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 183,
+            "name": "Damhirplex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 185,
+            "name": "Heiteira",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A4a - Verborgene Quelle": [
+        {
+            "index": 23,
+            "name": "Mantirps",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 31,
+            "name": "Bellektro",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 35,
+            "name": "Galar-Gorgasonn",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 37,
+            "name": "Latios",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 50,
+            "name": "Zoroark",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 55,
+            "name": "Altaria",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 59,
+            "name": "Fluffeluff",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 63,
+            "name": "Azurill",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 72,
+            "name": "Milotic",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 74,
+            "name": "Voldi",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 75,
+            "name": "Latios",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 76,
+            "name": "Phanpy",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "A4b - Deluxepack-ex": [
+        {
+            "index": 7,
+            "name": "Hornliu",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 12,
+            "name": "Owei",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 17,
+            "name": "Hubelupf",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 19,
+            "name": "Papungha",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 28,
+            "name": "Kinoso",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 33,
+            "name": "Serpifeu",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 37,
+            "name": "Serpiroyal",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 39,
+            "name": "Bauz",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 41,
+            "name": "Arboretoss",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 46,
+            "name": "Schabelle",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 50,
+            "name": "Felori",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 52,
+            "name": "Feliospa",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 54,
+            "name": "Maskagato",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 56,
+            "name": "Glumanda",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 58,
+            "name": "Glutexo",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 62,
+            "name": "Fukano",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 65,
+            "name": "Flamara",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 74,
+            "name": "Panpyro",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 79,
+            "name": "Flamiau",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 81,
+            "name": "Miezunder",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 84,
+            "name": "Schiggy",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 89,
+            "name": "Seeper",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 97,
+            "name": "Karpador",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 100,
+            "name": "Aquana",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 105,
+            "name": "Krebutack",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 109,
+            "name": "Manaphy",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 117,
+            "name": "Robball",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 126,
+            "name": "Schligda",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 129,
+            "name": "Pikachu",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 134,
+            "name": "Magnetilo",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 138,
+            "name": "Magnezone",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 141,
+            "name": "Lampi",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 150,
+            "name": "Zeraora",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 152,
+            "name": "Nebulak",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 157,
+            "name": "Rossana",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 162,
+            "name": "Traunfugil",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 165,
+            "name": "Trasla",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 171,
+            "name": "Giratina",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 176,
+            "name": "Sabbaione",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 179,
+            "name": "Choreogel",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 190,
+            "name": "Machollo",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 195,
+            "name": "Tragosso",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 201,
+            "name": "Phanpy",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 204,
+            "name": "Nasgnet",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 206,
+            "name": "Kaumalat",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 208,
+            "name": "Knarksel",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 211,
+            "name": "Riolu",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 213,
+            "name": "Lucario",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 229,
+            "name": "Golbat",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 234,
+            "name": "Alola-Sleima",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 247,
+            "name": "Anego",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 250,
+            "name": "Alola-Digda",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 256,
+            "name": "Stalobor",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 261,
+            "name": "Magearna",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 263,
+            "name": "Forgita",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 275,
+            "name": "Tauboga",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 278,
+            "name": "Pummeluff",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 281,
+            "name": "Porenta",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 283,
+            "name": "Schlurp",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 286,
+            "name": "Evoli",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 291,
+            "name": "Eneco",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 293,
+            "name": "Enekoro",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 298,
+            "name": "Shaymin",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 301,
+            "name": "Typ:Null",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 303,
+            "name": "Amigento",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 304,
+            "name": "Kaguron",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 311,
+            "name": "Elementartausch",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 313,
+            "name": "Altbernstein",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 319,
+            "name": "Elektrokabel",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 321,
+            "name": "Riesige Robe",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 323,
+            "name": "Beulenhelm",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 329,
+            "name": "Erika",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 331,
+            "name": "Perla",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 333,
+            "name": "Lyra",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 335,
+            "name": "Giovanni",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 337,
+            "name": "Silber",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 341,
+            "name": "Enigmara",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 345,
+            "name": "Mars",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 353,
+            "name": "Rot",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 354,
+            "name": "Feliospa",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 355,
+            "name": "Krebutack",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 356,
+            "name": "Quajutsu",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 357,
+            "name": "Guardevoir",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 358,
+            "name": "Sabbaione",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 359,
+            "name": "Porenta",
             "want": 0,
             "have": 2
         }
