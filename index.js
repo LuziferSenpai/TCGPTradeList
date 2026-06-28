@@ -227,7 +227,7 @@ function renderTradeList({ wants, haves }) {
                 <div class="divider-grid grid gap-4">
                     <div class="divider divider-end pl-0">Habe</div>
                     <div class="divider">
-                        <img src="${raritySrc(rarity)}" class="h-4 object-contain">
+                        <img src="${raritySrc(rarity)}" class="h-3 object-contain">
                     </div>
                     <div class="divider divider-start pr-0">Brauche</div>
                 </div>
