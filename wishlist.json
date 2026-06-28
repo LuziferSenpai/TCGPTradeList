@@ -125,6 +125,12 @@
             "name": "Ditto",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 257,
+            "name": "Starmie-ex",
+            "want": 0,
+            "have": 2
         }
     ],
     "A1a - Mysteriöse Insel": [
@@ -439,6 +445,24 @@
             "name": "Knuddeluff",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 83,
+            "name": "Giratina-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 86,
+            "name": "Granforgita-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 94,
+            "name": "Granforgita-ex",
+            "want": 1,
+            "have": 0
         }
     ],
     "A3 - Hüter des Firmaments": [
@@ -531,6 +555,12 @@
             "name": "Koalelu",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 218,
+            "name": "Sterndu",
+            "want": 0,
+            "have": 2
         }
     ],
     "A3a - Dimensionale Krise": [
@@ -593,6 +623,30 @@
             "name": "Kaguron",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 86,
+            "name": "Schlingking-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 89,
+            "name": "Fukano",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 94,
+            "name": "Rossana",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 99,
+            "name": "Celebi-ex",
+            "want": 0,
+            "have": 1
         }
     ],
     "A3b - Evoli-Hain": [
@@ -787,6 +841,18 @@
         {
             "index": 185,
             "name": "Heiteira",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 215,
+            "name": "Garados",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 216,
+            "name": "Aquana",
             "want": 0,
             "have": 2
         }
@@ -1375,6 +1441,590 @@
             "name": "Porenta",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 371,
+            "name": "Lugia-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 377,
+            "name": "Giratina-ex",
+            "want": 0,
+            "have": 1
+        }
+    ],
+    "B1 - Mega-Aufstieg": [
+        {
+            "index": 109,
+            "name": "Klingplim",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 154,
+            "name": "Darkrai",
+            "want": 2,
+            "have": 0
+        },
+        {
+            "index": 157,
+            "name": "Trikephalo",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 230,
+            "name": "Fukano",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 232,
+            "name": "Karpador",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 234,
+            "name": "Apoquallyp",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 236,
+            "name": "Kubuin",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 238,
+            "name": "Echnatoll",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 239,
+            "name": "Mollimorba",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 243,
+            "name": "Pam-Pam",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 244,
+            "name": "Kramshef",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 245,
+            "name": "Trikephalo",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 246,
+            "name": "Krarmor",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 247,
+            "name": "Viscora",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 275,
+            "name": "Quajutsu-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 283,
+            "name": "Tauros-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 293,
+            "name": "Flamiau",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 306,
+            "name": "Hypno",
+            "want": 0,
+            "have": 1
+        }
+    ],
+    "B1a - Feuerrote Flammen": [
+        {
+            "index": 3,
+            "name": "Bisaflor",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 13,
+            "name": "Glurak",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 26,
+            "name": "Magnezone",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 72,
+            "name": "Zytomega",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 74,
+            "name": "Unratütox",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 75,
+            "name": "Haspiror",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 89,
+            "name": "Duflor",
+            "want": 0,
+            "have": 1
+        }
+    ],
+    "B2 - Traumhafte Parade": [
+        {
+            "index": 5,
+            "name": "Roserade",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 14,
+            "name": "Masskito",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 27,
+            "name": "Ofenmaske-Ogerpon",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 48,
+            "name": "Brunnenmaske-Ogerpon",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 100,
+            "name": "Galar-Barrikadax",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 103,
+            "name": "Kryppuk",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 108,
+            "name": "Yveltal",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 120,
+            "name": "Durengard",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 131,
+            "name": "Lugia",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 133,
+            "name": "Schwalboss",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 138,
+            "name": "Boreos",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 157,
+            "name": "Roserade",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 159,
+            "name": "Masskito",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 161,
+            "name": "Choreogel",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 163,
+            "name": "Amagarga",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 164,
+            "name": "Urgl",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 170,
+            "name": "Sandan",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 171,
+            "name": "Monargoras",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 174,
+            "name": "Felilou",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 176,
+            "name": "Galar-Barrikadax",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 178,
+            "name": "Brutalanda",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 181,
+            "name": "Kopplosio-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 182,
+            "name": "Alola-Vulnona-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 197,
+            "name": "Mega-Sumpex-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 206,
+            "name": "Magby",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 220,
+            "name": "Kabuto",
+            "want": 0,
+            "have": 1
+        }
+    ],
+    "B2a - Wundervolles Paldea": [
+        {
+            "index": 28,
+            "name": "Delfinator",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 62,
+            "name": "Dinglu",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 99,
+            "name": "Famieps",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 100,
+            "name": "Maskagato-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 117,
+            "name": "Feliospa",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 118,
+            "name": "Maskagato",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 123,
+            "name": "Forgita",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 124,
+            "name": "Tafforgita",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 129,
+            "name": "Granforgita-ex",
+            "want": 1,
+            "have": 0
+        }
+    ],
+    "B2b - Mega-Schillern": [
+        {
+            "index": 20,
+            "name": "Impoleon",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 35,
+            "name": "Groudon",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 44,
+            "name": "Zoroark",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 53,
+            "name": "Dragoran",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 71,
+            "name": "Impoleon",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 73,
+            "name": "Morpeko",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 84,
+            "name": "Mega-Voltenso-ex",
+            "want": 0,
+            "have": 1
+        }
+    ],
+    "B3 - Pulsierende Aura": [
+        {
+            "index": 13,
+            "name": "Knospi",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 28,
+            "name": "Flambirex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 78,
+            "name": "Mobai",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 80,
+            "name": "Lucario",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 84,
+            "name": "Galagladi",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 115,
+            "name": "Adebom",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 128,
+            "name": "Heiteira",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 156,
+            "name": "Geckarbor",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 157,
+            "name": "Reptain",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 158,
+            "name": "Knilz",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 159,
+            "name": "Knospi",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 160,
+            "name": "Drapfel",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 163,
+            "name": "Zekrom",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 166,
+            "name": "Choreogel",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 167,
+            "name": "Horrerba",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 170,
+            "name": "Meloetta",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 172,
+            "name": "Dakuma",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 174,
+            "name": "Zorua",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 175,
+            "name": "Calamanero",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 176,
+            "name": "Caesurio",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 177,
+            "name": "Meltan",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 221,
+            "name": "Heiteira",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 231,
+            "name": "Tandrak-ex",
+            "want": 0,
+            "have": 2
+        }
+    ],
+    "B3a - Paradoxansturm": [
+        {
+            "index": 79,
+            "name": "Furienblitz",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 80,
+            "name": "Resladero",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 104,
+            "name": "Maskagato-ex",
+            "want": 1,
+            "have": 0
         }
     ]
 }
