@@ -769,7 +769,7 @@
         {
             "index": 48,
             "name": "Impergator",
-            "want": 2,
+            "want": 1,
             "have": 0
         },
         {
@@ -1465,7 +1465,7 @@
         {
             "index": 154,
             "name": "Darkrai",
-            "want": 2,
+            "want": 1,
             "have": 0
         },
         {
@@ -1695,12 +1695,6 @@
             "have": 0
         },
         {
-            "index": 163,
-            "name": "Amagarga",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 164,
             "name": "Urgl",
             "want": 0,
@@ -1893,12 +1887,6 @@
             "have": 0
         },
         {
-            "index": 84,
-            "name": "Galagladi",
-            "want": 0,
-            "have": 2
-        },
-        {
             "index": 115,
             "name": "Adebom",
             "want": 0,
@@ -1909,12 +1897,6 @@
             "name": "Heiteira",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 156,
-            "name": "Geckarbor",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 157,
@@ -1980,7 +1962,7 @@
             "index": 175,
             "name": "Calamanero",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 176,
