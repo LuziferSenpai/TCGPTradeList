@@ -1,8 +1,26 @@
 {
     "A1 - Unschlagbare Gene": [
         {
+            "index": 4,
+            "name": "Bisaflor-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 13,
             "name": "Giflor",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 23,
+            "name": "Kokowei-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 36,
+            "name": "Glurak-ex",
             "want": 0,
             "have": 1
         },
@@ -13,8 +31,26 @@
             "have": 1
         },
         {
+            "index": 41,
+            "name": "Arkani-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 46,
             "name": "Lavados",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 47,
+            "name": "Lavados-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 56,
+            "name": "Turtok-ex",
             "want": 0,
             "have": 1
         },
@@ -23,6 +59,18 @@
             "name": "Quappo",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 76,
+            "name": "Starmie-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 84,
+            "name": "Arktos-ex",
+            "want": 0,
+            "have": 6
         },
         {
             "index": 89,
@@ -43,6 +91,12 @@
             "have": 3
         },
         {
+            "index": 104,
+            "name": "Zapdos-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 128,
             "name": "Mewtu",
             "want": 0,
@@ -55,6 +109,18 @@
             "have": 4
         },
         {
+            "index": 146,
+            "name": "Machomei-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 153,
+            "name": "Knogga-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 159,
             "name": "Kabutops",
             "want": 0,
@@ -63,6 +129,12 @@
         {
             "index": 182,
             "name": "Melmetal",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 195,
+            "name": "Knuddeluff-ex",
             "want": 0,
             "have": 2
         },
@@ -135,10 +207,22 @@
     ],
     "A1a - Mysteriöse Insel": [
         {
+            "index": 3,
+            "name": "Celebi-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 6,
             "name": "Serpiroyal",
             "want": 0,
             "have": 6
+        },
+        {
+            "index": 18,
+            "name": "Garados-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 19,
@@ -161,6 +245,12 @@
         {
             "index": 45,
             "name": "Geowaz",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 46,
+            "name": "Aerodactyl-ex",
             "want": 0,
             "have": 1
         },
@@ -209,10 +299,22 @@
     ],
     "A2 - Kollision von Raum und Zeit": [
         {
+            "index": 7,
+            "name": "Yanmega-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 24,
             "name": "Magbrant",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 29,
+            "name": "Panferno-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 37,
@@ -231,6 +333,12 @@
             "name": "Magnezone",
             "want": 0,
             "have": 6
+        },
+        {
+            "index": 61,
+            "name": "Pachirisu-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 65,
@@ -263,8 +371,32 @@
             "have": 3
         },
         {
+            "index": 95,
+            "name": "Galagladi-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 99,
+            "name": "Snibunna-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 110,
+            "name": "Darkrai-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 114,
             "name": "Bollterus",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 119,
+            "name": "Dialga-ex",
             "want": 0,
             "have": 4
         },
@@ -273,6 +405,12 @@
             "name": "Knakrack",
             "want": 0,
             "have": 3
+        },
+        {
+            "index": 125,
+            "name": "Schlurplek-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 129,
@@ -337,6 +475,12 @@
     ],
     "A2a - Licht des Triumphs": [
         {
+            "index": 10,
+            "name": "Folipurba-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 13,
             "name": "Heatran",
             "want": 0,
@@ -349,14 +493,32 @@
             "have": 3
         },
         {
+            "index": 47,
+            "name": "Knakrack-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 50,
             "name": "Iksbat",
             "want": 0,
             "have": 2
         },
         {
+            "index": 57,
+            "name": "Voluminas-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 69,
             "name": "Shaymin",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 71,
+            "name": "Arceus-ex",
             "want": 0,
             "have": 2
         },
@@ -369,10 +531,28 @@
     ],
     "A2b - Glänzendes Festival": [
         {
+            "index": 3,
+            "name": "Bibor-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 7,
             "name": "Maskagato",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 10,
+            "name": "Glurak-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 19,
+            "name": "Schligdri-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 20,
@@ -393,8 +573,26 @@
             "have": 4
         },
         {
+            "index": 35,
+            "name": "Giratina-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 39,
             "name": "Machomei",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 43,
+            "name": "Lucario-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 48,
+            "name": "Paldea-Suelord-ex",
             "want": 0,
             "have": 1
         },
@@ -405,6 +603,12 @@
             "have": 2
         },
         {
+            "index": 54,
+            "name": "Granforgita-ex",
+            "want": 0,
+            "have": 11
+        },
+        {
             "index": 57,
             "name": "Monetigo",
             "want": 0,
@@ -413,6 +617,12 @@
         {
             "index": 61,
             "name": "Knuddeluff",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 65,
+            "name": "Bidifas-ex",
             "want": 0,
             "have": 1
         },
@@ -467,10 +677,40 @@
     ],
     "A3 - Hüter des Firmaments": [
         {
+            "index": 12,
+            "name": "Silvarro-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 23,
+            "name": "Moruda-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 24,
             "name": "Kapu-Toro",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 49,
+            "name": "Krawell-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 51,
+            "name": "Lusardin-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 58,
+            "name": "Alola-Raichu-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 65,
@@ -483,6 +723,24 @@
             "name": "Colossand",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 87,
+            "name": "Lunala-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 104,
+            "name": "Quartermak-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 111,
+            "name": "Alola-Sleimok-ex",
+            "want": 0,
+            "have": 6
         },
         {
             "index": 123,
@@ -571,10 +829,22 @@
             "have": 1
         },
         {
+            "index": 6,
+            "name": "Masskito-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 15,
             "name": "Luxtra",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 19,
+            "name": "Kapu-Riki-ex",
+            "want": 0,
+            "have": 5
         },
         {
             "index": 21,
@@ -589,10 +859,28 @@
             "have": 1
         },
         {
+            "index": 33,
+            "name": "Wolwerock-ex",
+            "want": 0,
+            "have": 5
+        },
+        {
             "index": 42,
             "name": "Anego",
             "want": 0,
             "have": 5
+        },
+        {
+            "index": 43,
+            "name": "Schlingking-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 47,
+            "name": "Alola-Digdri-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 61,
@@ -663,6 +951,12 @@
             "have": 3
         },
         {
+            "index": 9,
+            "name": "Flamara-ex",
+            "want": 0,
+            "have": 5
+        },
+        {
             "index": 16,
             "name": "Aquana",
             "want": 0,
@@ -673,6 +967,12 @@
             "name": "Glaziola",
             "want": 0,
             "have": 3
+        },
+        {
+            "index": 24,
+            "name": "Primarene-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 25,
@@ -693,8 +993,32 @@
             "have": 1
         },
         {
+            "index": 34,
+            "name": "Feelinara-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 43,
             "name": "Nachtara",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 53,
+            "name": "Dragoran-ex",
+            "want": 0,
+            "have": 6
+        },
+        {
+            "index": 56,
+            "name": "Evoli-ex",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 57,
+            "name": "Relaxo-ex",
             "want": 0,
             "have": 4
         },
@@ -749,6 +1073,12 @@
             "have": 1
         },
         {
+            "index": 21,
+            "name": "Pottrott-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 22,
             "name": "Skaraborn",
             "want": 0,
@@ -767,6 +1097,18 @@
             "have": 0
         },
         {
+            "index": 34,
+            "name": "Ho-Oh-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 43,
+            "name": "Seedraking-ex",
+            "want": 0,
+            "have": 7
+        },
+        {
             "index": 48,
             "name": "Impergator",
             "want": 1,
@@ -779,10 +1121,52 @@
             "have": 1
         },
         {
+            "index": 65,
+            "name": "Lanturn-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 83,
+            "name": "Psiana-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 100,
+            "name": "Donphan-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 109,
+            "name": "Iksbat-ex",
+            "want": 0,
+            "have": 7
+        },
+        {
+            "index": 112,
+            "name": "Nachtara-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 122,
             "name": "Stahlos",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 124,
+            "name": "Panzaeron-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 149,
+            "name": "Lugia-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 162,
@@ -859,6 +1243,18 @@
     ],
     "A4a - Verborgene Quelle": [
         {
+            "index": 10,
+            "name": "Entei-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 20,
+            "name": "Suicune-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 23,
             "name": "Mantirps",
             "want": 0,
@@ -881,6 +1277,12 @@
             "name": "Latios",
             "want": 0,
             "have": 4
+        },
+        {
+            "index": 42,
+            "name": "Quappo-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 50,
@@ -933,16 +1335,34 @@
     ],
     "A4b - Deluxepack-ex": [
         {
+            "index": 5,
+            "name": "Bisaflor-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 7,
             "name": "Hornliu",
             "want": 1,
             "have": 0
         },
         {
+            "index": 10,
+            "name": "Bibor-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 12,
             "name": "Owei",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 13,
+            "name": "Kokowei-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 17,
@@ -957,10 +1377,34 @@
             "have": 0
         },
         {
+            "index": 22,
+            "name": "Yanmega-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 23,
+            "name": "Pottrott-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 24,
+            "name": "Celebi-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 28,
             "name": "Kinoso",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 29,
+            "name": "Folipurba-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 33,
@@ -985,6 +1429,24 @@
             "name": "Arboretoss",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 42,
+            "name": "Silvarro-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 43,
+            "name": "Moruda-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 44,
+            "name": "Masskito-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 46,
@@ -1023,10 +1485,28 @@
             "have": 0
         },
         {
+            "index": 59,
+            "name": "Glurak-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 60,
+            "name": "Glurak-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 62,
             "name": "Fukano",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 63,
+            "name": "Arkani-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 65,
@@ -1035,10 +1515,34 @@
             "have": 1
         },
         {
+            "index": 66,
+            "name": "Flamara-ex",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 67,
+            "name": "Lavados-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 68,
+            "name": "Ho-Oh-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 74,
             "name": "Panpyro",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 75,
+            "name": "Panferno-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 79,
@@ -1059,10 +1563,28 @@
             "have": 0
         },
         {
+            "index": 87,
+            "name": "Turtok-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 89,
             "name": "Seeper",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 92,
+            "name": "Seedraking-ex",
+            "want": 0,
+            "have": 7
+        },
+        {
+            "index": 95,
+            "name": "Starmie-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 97,
@@ -1071,10 +1593,22 @@
             "have": 0
         },
         {
+            "index": 98,
+            "name": "Garados-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 100,
             "name": "Aquana",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 101,
+            "name": "Arktos-ex",
+            "want": 0,
+            "have": 6
         },
         {
             "index": 105,
@@ -1095,16 +1629,46 @@
             "have": 0
         },
         {
+            "index": 120,
+            "name": "Primarene-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 121,
+            "name": "Krawell-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 124,
+            "name": "Lusardin-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 126,
             "name": "Schligda",
             "want": 1,
             "have": 0
         },
         {
+            "index": 127,
+            "name": "Schligdri-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 129,
             "name": "Pikachu",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 130,
+            "name": "Alola-Raichu-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 134,
@@ -1119,10 +1683,34 @@
             "have": 2
         },
         {
+            "index": 139,
+            "name": "Zapdos-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 141,
             "name": "Lampi",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 142,
+            "name": "Lanturn-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 145,
+            "name": "Pachirisu-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 148,
+            "name": "Kapu-Riki-ex",
+            "want": 0,
+            "have": 5
         },
         {
             "index": 150,
@@ -1143,6 +1731,12 @@
             "have": 0
         },
         {
+            "index": 160,
+            "name": "Psiana-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 162,
             "name": "Traunfugil",
             "want": 1,
@@ -1161,10 +1755,22 @@
             "have": 0
         },
         {
+            "index": 172,
+            "name": "Giratina-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 176,
             "name": "Sabbaione",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 177,
+            "name": "Feelinara-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 179,
@@ -1173,10 +1779,22 @@
             "have": 0
         },
         {
+            "index": 184,
+            "name": "Lunala-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 190,
             "name": "Machollo",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 193,
+            "name": "Machomei-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 195,
@@ -1185,10 +1803,28 @@
             "have": 0
         },
         {
+            "index": 196,
+            "name": "Knogga-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 197,
+            "name": "Aerodactyl-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 201,
             "name": "Phanpy",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 202,
+            "name": "Donphan-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 204,
@@ -1209,6 +1845,12 @@
             "have": 1
         },
         {
+            "index": 209,
+            "name": "Knakrack-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 211,
             "name": "Riolu",
             "want": 1,
@@ -1221,10 +1863,40 @@
             "have": 0
         },
         {
+            "index": 214,
+            "name": "Lucario-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 215,
+            "name": "Galagladi-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 222,
+            "name": "Wolwerock-ex",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 223,
+            "name": "Quartermak-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 229,
             "name": "Golbat",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 232,
+            "name": "Iksbat-ex",
+            "want": 0,
+            "have": 7
         },
         {
             "index": 234,
@@ -1233,16 +1905,76 @@
             "have": 0
         },
         {
+            "index": 235,
+            "name": "Alola-Sleimok-ex",
+            "want": 0,
+            "have": 6
+        },
+        {
+            "index": 238,
+            "name": "Paldea-Suelord-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 241,
+            "name": "Nachtara-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 244,
+            "name": "Snibunna-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 245,
+            "name": "Darkrai-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 247,
             "name": "Anego",
             "want": 1,
             "have": 0
         },
         {
+            "index": 248,
+            "name": "Schlingking-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
             "index": 250,
             "name": "Alola-Digda",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 251,
+            "name": "Alola-Digdri-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 252,
+            "name": "Panzaeron-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 253,
+            "name": "Voluminas-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 254,
+            "name": "Dialga-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 256,
@@ -1263,6 +1995,18 @@
             "have": 0
         },
         {
+            "index": 266,
+            "name": "Granforgita-ex",
+            "want": 0,
+            "have": 11
+        },
+        {
+            "index": 271,
+            "name": "Dragoran-ex",
+            "want": 0,
+            "have": 6
+        },
+        {
             "index": 275,
             "name": "Tauboga",
             "want": 0,
@@ -1273,6 +2017,12 @@
             "name": "Pummeluff",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 279,
+            "name": "Knuddeluff-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 281,
@@ -1287,10 +2037,34 @@
             "have": 0
         },
         {
+            "index": 284,
+            "name": "Schlurplek-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
             "index": 286,
             "name": "Evoli",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 287,
+            "name": "Evoli-ex",
+            "want": 0,
+            "have": 5
+        },
+        {
+            "index": 288,
+            "name": "Relaxo-ex",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 289,
+            "name": "Lugia-ex",
+            "want": 0,
+            "have": 4
         },
         {
             "index": 291,
@@ -1305,10 +2079,22 @@
             "have": 0
         },
         {
+            "index": 296,
+            "name": "Bidifas-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 298,
             "name": "Shaymin",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 299,
+            "name": "Arceus-ex",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 301,
@@ -1457,6 +2243,18 @@
     ],
     "B1 - Mega-Aufstieg": [
         {
+            "index": 16,
+            "name": "Elfun-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 36,
+            "name": "Mega-Lohgock-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 109,
             "name": "Klingplim",
             "want": 0,
@@ -1473,6 +2271,12 @@
             "name": "Trikephalo",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 174,
+            "name": "Melmetal-ex",
+            "want": 0,
+            "have": 3
         },
         {
             "index": 230,
@@ -1579,10 +2383,28 @@
             "have": 1
         },
         {
+            "index": 14,
+            "name": "Mega-Glurak Y-ex",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 20,
+            "name": "Mega-Turtok-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 26,
             "name": "Magnezone",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 52,
+            "name": "Mega-Stahlos-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 72,
@@ -1623,6 +2445,12 @@
             "have": 1
         },
         {
+            "index": 23,
+            "name": "Kopplosio-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 27,
             "name": "Ofenmaske-Ogerpon",
             "want": 0,
@@ -1633,6 +2461,18 @@
             "name": "Brunnenmaske-Ogerpon",
             "want": 0,
             "have": 3
+        },
+        {
+            "index": 55,
+            "name": "Riffex-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 73,
+            "name": "Mimigma-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 100,
@@ -1649,6 +2489,12 @@
         {
             "index": 108,
             "name": "Yveltal",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 113,
+            "name": "Mega-Flunkifer-ex",
             "want": 0,
             "have": 1
         },
@@ -1769,6 +2615,12 @@
             "have": 1
         },
         {
+            "index": 42,
+            "name": "Wampitz-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 62,
             "name": "Dinglu",
             "want": 0,
@@ -1863,14 +2715,32 @@
     ],
     "B3 - Pulsierende Aura": [
         {
+            "index": 8,
+            "name": "Mega-Gewaldro-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 13,
             "name": "Knospi",
             "want": 0,
             "have": 1
         },
         {
+            "index": 25,
+            "name": "Victini",
+            "want": 3,
+            "have": 0
+        },
+        {
             "index": 28,
             "name": "Flambirex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 37,
+            "name": "Aquana-ex",
             "want": 0,
             "have": 1
         },
@@ -1887,8 +2757,26 @@
             "have": 0
         },
         {
+            "index": 81,
+            "name": "Mega-Lucario-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 84,
+            "name": "Galagladi",
+            "want": 1,
+            "have": 0
+        },
+        {
             "index": 115,
             "name": "Adebom",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 124,
+            "name": "Krarmor-ex",
             "want": 0,
             "have": 1
         },
@@ -1897,6 +2785,12 @@
             "name": "Heiteira",
             "want": 0,
             "have": 1
+        },
+        {
+            "index": 139,
+            "name": "Bissbark",
+            "want": 1,
+            "have": 0
         },
         {
             "index": 157,
@@ -1991,6 +2885,36 @@
     ],
     "B3a - Paradoxansturm": [
         {
+            "index": 12,
+            "name": "Mottineva",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 13,
+            "name": "Eisenbündel-ex",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 28,
+            "name": "Eisenblatt",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 30,
+            "name": "Eisenhaupt",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 53,
+            "name": "Windewoge",
+            "want": 1,
+            "have": 0
+        },
+        {
             "index": 79,
             "name": "Furienblitz",
             "want": 0,
@@ -2007,6 +2931,50 @@
             "name": "Maskagato-ex",
             "want": 1,
             "have": 0
+        }
+    ],
+    "B3b - Wunder des Alltags": [
+        {
+            "index": 3,
+            "name": "Smettbo",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 15,
+            "name": "Milotic-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 17,
+            "name": "Frosdedje",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 50,
+            "name": "Hisui-Viscogon",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 71,
+            "name": "Plinfa",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 76,
+            "name": "Relaxo",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 77,
+            "name": "Schlaraffel",
+            "want": 0,
+            "have": 1
         }
     ]
 }
