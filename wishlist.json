@@ -2823,16 +2823,16 @@
             "have": 1
         },
         {
-            "index": 166,
-            "name": "Choreogel",
+            "index": 164,
+            "name": "Morpeko",
             "want": 0,
             "have": 1
         },
         {
-            "index": 167,
-            "name": "Horrerba",
-            "want": 1,
-            "have": 0
+            "index": 166,
+            "name": "Choreogel",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 170,
@@ -2885,16 +2885,16 @@
     ],
     "B3a - Paradoxansturm": [
         {
-            "index": 12,
-            "name": "Mottineva",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 13,
             "name": "Eisenbündel-ex",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 27,
+            "name": "Eisenkrieger",
+            "want": 1,
+            "have": 0
         },
         {
             "index": 28,
