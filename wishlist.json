@@ -569,12 +569,6 @@
             "have": 2
         },
         {
-            "index": 167,
-            "name": "Giratina",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 170,
             "name": "Lucario",
             "want": 1,
@@ -3647,6 +3641,350 @@
             "name": "Schlaraffel",
             "want": 0,
             "have": 1
+        }
+    ],
+    "B4 - Herrscher der Lüfte": [
+        {
+            "index": 5,
+            "name": "Pudox",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 7,
+            "name": "Wielie",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 13,
+            "name": "Schnuthelm",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 14,
+            "name": "Hydragil",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 18,
+            "name": "Fatalitcha",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 19,
+            "name": "Türkisgrüne-Maske-Ogerpon",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 23,
+            "name": "Lavados",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 26,
+            "name": "Tornupto-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 35,
+            "name": "Mega-Tohaido-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 41,
+            "name": "Kyogre",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 44,
+            "name": "Admurai",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 50,
+            "name": "Raichu",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 52,
+            "name": "Luxio",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 53,
+            "name": "Luxtra",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 55,
+            "name": "Rotom-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 68,
+            "name": "Pantimimi",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 70,
+            "name": "Mewtu",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 74,
+            "name": "Isso",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 77,
+            "name": "Hoopa",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 81,
+            "name": "Anorith",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 82,
+            "name": "Armaldo",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 83,
+            "name": "Groudon",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 86,
+            "name": "Stalobor",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 91,
+            "name": "Sleima",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 93,
+            "name": "Fiffyen",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 97,
+            "name": "Galar-Barrikadax",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 98,
+            "name": "Schluppuck",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 103,
+            "name": "Hoopa-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 108,
+            "name": "Metagross",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 111,
+            "name": "Genesect",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 113,
+            "name": "Briduradon",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 115,
+            "name": "Knattatox",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 118,
+            "name": "Dragoran",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 119,
+            "name": "Rayquaza",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 120,
+            "name": "Mega-Rayquaza-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 128,
+            "name": "Mopex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 135,
+            "name": "Enekoro",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 142,
+            "name": "Coiffwaff",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 144,
+            "name": "Amigento",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 145,
+            "name": "Bestellpad",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 156,
+            "name": "Waumpel",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 157,
+            "name": "Liliep",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 158,
+            "name": "Zirpeise",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 159,
+            "name": "Hydragil",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 160,
+            "name": "Ponita",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 161,
+            "name": "Igelavar",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 162,
+            "name": "Kyogre",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 165,
+            "name": "Voltrel",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 166,
+            "name": "Piepi",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 168,
+            "name": "Isso",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 170,
+            "name": "Anorith",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 171,
+            "name": "Fiffyen",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 173,
+            "name": "Skallyk",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 174,
+            "name": "Genesect",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 175,
+            "name": "Dragonir",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 176,
+            "name": "UHaFnir",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 179,
+            "name": "Griffel",
+            "want": 1,
+            "have": 0
         }
     ]
 }
