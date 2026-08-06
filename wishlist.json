@@ -3687,16 +3687,16 @@
             "have": 0
         },
         {
-            "index": 26,
-            "name": "Tornupto-ex",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 35,
             "name": "Mega-Tohaido-ex",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 40,
+            "name": "Walraisa",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 41,
@@ -3777,18 +3777,6 @@
             "have": 0
         },
         {
-            "index": 86,
-            "name": "Stalobor",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 91,
-            "name": "Sleima",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 93,
             "name": "Fiffyen",
             "want": 1,
@@ -3855,6 +3843,12 @@
             "have": 0
         },
         {
+            "index": 127,
+            "name": "Hydrapfel",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 128,
             "name": "Mopex",
             "want": 1,
@@ -3863,12 +3857,6 @@
         {
             "index": 135,
             "name": "Enekoro",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 142,
-            "name": "Coiffwaff",
             "want": 1,
             "have": 0
         },
@@ -3925,6 +3913,12 @@
             "name": "Kyogre",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 164,
+            "name": "Raichu",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 165,
