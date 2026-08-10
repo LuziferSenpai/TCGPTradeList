@@ -3651,20 +3651,8 @@
             "have": 2
         },
         {
-            "index": 13,
-            "name": "Schnuthelm",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 14,
             "name": "Hydragil",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 18,
-            "name": "Fatalitcha",
             "want": 1,
             "have": 0
         },
@@ -3693,12 +3681,6 @@
             "have": 1
         },
         {
-            "index": 41,
-            "name": "Kyogre",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 44,
             "name": "Admurai",
             "want": 1,
@@ -3707,12 +3689,6 @@
         {
             "index": 50,
             "name": "Raichu",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 52,
-            "name": "Luxio",
             "want": 1,
             "have": 0
         },
@@ -3747,18 +3723,6 @@
             "have": 0
         },
         {
-            "index": 77,
-            "name": "Hoopa",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 81,
-            "name": "Anorith",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 82,
             "name": "Armaldo",
             "want": 1,
@@ -3771,20 +3735,14 @@
             "have": 0
         },
         {
-            "index": 93,
-            "name": "Fiffyen",
-            "want": 1,
-            "have": 0
+            "index": 89,
+            "name": "Meistagrif",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 97,
             "name": "Galar-Barrikadax",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 98,
-            "name": "Schluppuck",
             "want": 1,
             "have": 0
         },
@@ -3803,12 +3761,6 @@
         {
             "index": 111,
             "name": "Genesect",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 113,
-            "name": "Briduradon",
             "want": 1,
             "have": 0
         },
@@ -3861,12 +3813,6 @@
             "have": 0
         },
         {
-            "index": 145,
-            "name": "Bestellpad",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 156,
             "name": "Waumpel",
             "want": 1,
@@ -3875,12 +3821,6 @@
         {
             "index": 157,
             "name": "Liliep",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 158,
-            "name": "Zirpeise",
             "want": 1,
             "have": 0
         },
@@ -3899,12 +3839,6 @@
         {
             "index": 161,
             "name": "Igelavar",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 162,
-            "name": "Kyogre",
             "want": 1,
             "have": 0
         },
