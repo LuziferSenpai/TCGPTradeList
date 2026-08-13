@@ -1391,12 +1391,6 @@
             "have": 4
         },
         {
-            "index": 162,
-            "name": "Endivie",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 163,
             "name": "Blubella",
             "want": 0,
@@ -1407,6 +1401,12 @@
             "name": "Karnimani",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 172,
+            "name": "Ampharos",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 175,
@@ -1433,14 +1433,14 @@
             "have": 1
         },
         {
-            "index": 182,
-            "name": "Hoothoot",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 183,
             "name": "Damhirplex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 184,
+            "name": "Farbeagle",
             "want": 0,
             "have": 1
         },
@@ -2568,7 +2568,7 @@
             "index": 354,
             "name": "Feliospa",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 355,
@@ -3474,7 +3474,7 @@
             "index": 164,
             "name": "Morpeko",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 166,
@@ -3498,7 +3498,7 @@
             "index": 174,
             "name": "Zorua",
             "want": 0,
-            "have": 3
+            "have": 2
         },
         {
             "index": 175,
@@ -3510,7 +3510,7 @@
             "index": 176,
             "name": "Caesurio",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 205,
@@ -3625,6 +3625,18 @@
             "have": 1
         },
         {
+            "index": 74,
+            "name": "Garstella",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 75,
+            "name": "Pummeluff",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 76,
             "name": "Relaxo",
             "want": 0,
@@ -3649,6 +3661,12 @@
             "name": "Wielie",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 11,
+            "name": "Honweisel-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 14,
@@ -3693,16 +3711,10 @@
             "have": 0
         },
         {
-            "index": 53,
-            "name": "Luxtra",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 55,
-            "name": "Rotom-ex",
-            "want": 1,
-            "have": 0
+            "index": 59,
+            "name": "Voltolos",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 68,
@@ -3717,12 +3729,6 @@
             "have": 0
         },
         {
-            "index": 74,
-            "name": "Isso",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 82,
             "name": "Armaldo",
             "want": 1,
@@ -3731,8 +3737,8 @@
         {
             "index": 83,
             "name": "Groudon",
-            "want": 1,
-            "have": 0
+            "want": 0,
+            "have": 2
         },
         {
             "index": 89,
@@ -3771,12 +3777,6 @@
             "have": 0
         },
         {
-            "index": 118,
-            "name": "Dragoran",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 119,
             "name": "Rayquaza",
             "want": 1,
@@ -3792,7 +3792,7 @@
             "index": 127,
             "name": "Hydrapfel",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 128,
@@ -3809,12 +3809,6 @@
         {
             "index": 144,
             "name": "Amigento",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 156,
-            "name": "Waumpel",
             "want": 1,
             "have": 0
         },
@@ -3843,12 +3837,6 @@
             "have": 0
         },
         {
-            "index": 164,
-            "name": "Raichu",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 165,
             "name": "Voltrel",
             "want": 1,
@@ -3873,18 +3861,6 @@
             "have": 0
         },
         {
-            "index": 171,
-            "name": "Fiffyen",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 173,
-            "name": "Skallyk",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 174,
             "name": "Genesect",
             "want": 1,
@@ -3901,6 +3877,12 @@
             "name": "UHaFnir",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 177,
+            "name": "Mopex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 179,
