@@ -247,12 +247,6 @@
             "have": 1
         },
         {
-            "index": 233,
-            "name": "Garados",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 234,
             "name": "Lapras",
             "want": 0,
@@ -869,12 +863,6 @@
             "have": 1
         },
         {
-            "index": 65,
-            "name": "Donarion",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 66,
             "name": "Choreogel",
             "want": 0,
@@ -933,18 +921,6 @@
             "name": "Grandiras",
             "want": 0,
             "have": 5
-        },
-        {
-            "index": 156,
-            "name": "Alola-Kokowei",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 159,
-            "name": "Kapu-Toro",
-            "want": 0,
-            "have": 1
         },
         {
             "index": 160,
@@ -1079,12 +1055,6 @@
             "name": "Kaguron",
             "want": 0,
             "have": 2
-        },
-        {
-            "index": 71,
-            "name": "Schabelle",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 74,
@@ -1283,12 +1253,6 @@
             "have": 1
         },
         {
-            "index": 33,
-            "name": "Entei",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 34,
             "name": "Ho-Oh-ex",
             "want": 0,
@@ -1305,12 +1269,6 @@
             "name": "Garados",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 48,
-            "name": "Impergator",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 61,
@@ -2768,7 +2726,7 @@
             "index": 243,
             "name": "Pam-Pam",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 244,
@@ -3048,7 +3006,7 @@
             "index": 131,
             "name": "Lugia",
             "want": 0,
-            "have": 4
+            "have": 3
         },
         {
             "index": 133,
@@ -3061,24 +3019,6 @@
             "name": "Boreos",
             "want": 0,
             "have": 5
-        },
-        {
-            "index": 157,
-            "name": "Roserade",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 159,
-            "name": "Masskito",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 161,
-            "name": "Choreogel",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 164,
@@ -3357,22 +3297,10 @@
             "have": 1
         },
         {
-            "index": 66,
-            "name": "Psiaugon",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 73,
-            "name": "Horrerba",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 78,
             "name": "Mobai",
             "want": 0,
-            "have": 8
+            "have": 7
         },
         {
             "index": 80,
@@ -3610,7 +3538,7 @@
             "index": 50,
             "name": "Hisui-Viscogon",
             "want": 0,
-            "have": 3
+            "have": 2
         },
         {
             "index": 58,
@@ -3765,12 +3693,6 @@
             "have": 0
         },
         {
-            "index": 111,
-            "name": "Genesect",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 115,
             "name": "Knattatox",
             "want": 1,
@@ -3803,12 +3725,6 @@
         {
             "index": 135,
             "name": "Enekoro",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 144,
-            "name": "Amigento",
             "want": 1,
             "have": 0
         },
