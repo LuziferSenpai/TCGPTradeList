@@ -1569,6 +1569,12 @@
             "have": 0
         },
         {
+            "index": 21,
+            "name": "Yanma",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 22,
             "name": "Yanmega-ex",
             "want": 0,
@@ -1674,7 +1680,7 @@
             "index": 53,
             "name": "Maskagato",
             "want": 0,
-            "have": 3
+            "have": 5
         },
         {
             "index": 54,
@@ -1691,8 +1697,8 @@
         {
             "index": 58,
             "name": "Glutexo",
-            "want": 1,
-            "have": 0
+            "want": 0,
+            "have": 1
         },
         {
             "index": 59,
@@ -1728,7 +1734,7 @@
             "index": 65,
             "name": "Flamara",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 66,
@@ -1764,7 +1770,7 @@
             "index": 76,
             "name": "Heatran",
             "want": 0,
-            "have": 5
+            "have": 6
         },
         {
             "index": 79,
@@ -1783,6 +1789,12 @@
             "name": "Schiggy",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 86,
+            "name": "Schillok",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 87,
@@ -2295,6 +2307,12 @@
             "have": 1
         },
         {
+            "index": 258,
+            "name": "Clavion",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 260,
             "name": "Magearna",
             "want": 0,
@@ -2317,6 +2335,12 @@
             "name": "Granforgita-ex",
             "want": 0,
             "have": 11
+        },
+        {
+            "index": 268,
+            "name": "Dratini",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 271,
@@ -2503,6 +2527,12 @@
             "name": "Silber",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 339,
+            "name": "Sabrina",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 341,
@@ -3717,12 +3747,6 @@
             "have": 0
         },
         {
-            "index": 159,
-            "name": "Hydragil",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 161,
             "name": "Igelavar",
             "want": 1,
@@ -3743,12 +3767,6 @@
         {
             "index": 168,
             "name": "Isso",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 170,
-            "name": "Anorith",
             "want": 1,
             "have": 0
         },
