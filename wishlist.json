@@ -2853,12 +2853,6 @@
             "have": 1
         },
         {
-            "index": 14,
-            "name": "Hydragil",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 19,
             "name": "Türkisgrüne-Maske-Ogerpon",
             "want": 1,
@@ -2898,7 +2892,7 @@
             "index": 59,
             "name": "Voltolos",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 68,
@@ -2973,12 +2967,6 @@
             "have": 2
         },
         {
-            "index": 157,
-            "name": "Liliep",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 161,
             "name": "Igelavar",
             "want": 1,
@@ -3007,6 +2995,12 @@
             "name": "Isso",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 169,
+            "name": "Choreogel",
+            "want": 0,
+            "have": 2
         },
         {
             "index": 174,
