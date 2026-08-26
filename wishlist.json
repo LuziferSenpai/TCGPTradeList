@@ -2853,12 +2853,6 @@
             "have": 1
         },
         {
-            "index": 19,
-            "name": "Türkisgrüne-Maske-Ogerpon",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 23,
             "name": "Lavados",
             "want": 1,
@@ -2979,6 +2973,12 @@
             "have": 1
         },
         {
+            "index": 164,
+            "name": "Raichu",
+            "want": 0,
+            "have": 2
+        },
+        {
             "index": 165,
             "name": "Voltrel",
             "want": 1,
@@ -3025,6 +3025,12 @@
             "name": "Griffel",
             "want": 1,
             "have": 0
+        },
+        {
+            "index": 192,
+            "name": "Géraldine",
+            "want": 0,
+            "have": 1
         }
     ]
 }
