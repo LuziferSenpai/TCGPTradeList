@@ -2835,12 +2835,6 @@
     ],
     "B4 - Herrscher der Lüfte": [
         {
-            "index": 5,
-            "name": "Pudox",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 7,
             "name": "Wielie",
             "want": 0,
@@ -2911,12 +2905,6 @@
             "name": "Groudon",
             "want": 0,
             "have": 2
-        },
-        {
-            "index": 89,
-            "name": "Meistagrif",
-            "want": 0,
-            "have": 1
         },
         {
             "index": 97,
