@@ -2489,7 +2489,7 @@
         {
             "index": 25,
             "name": "Victini",
-            "want": 2,
+            "want": 1,
             "have": 0
         },
         {
@@ -2838,7 +2838,7 @@
             "index": 7,
             "name": "Wielie",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 11,
@@ -2857,12 +2857,6 @@
             "name": "Mega-Tohaido-ex",
             "want": 1,
             "have": 0
-        },
-        {
-            "index": 40,
-            "name": "Walraisa",
-            "want": 0,
-            "have": 1
         },
         {
             "index": 44,
