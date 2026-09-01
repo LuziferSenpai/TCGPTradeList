@@ -2892,7 +2892,7 @@
             "index": 83,
             "name": "Groudon",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 97,
@@ -2915,12 +2915,6 @@
         {
             "index": 115,
             "name": "Knattatox",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 119,
-            "name": "Rayquaza",
             "want": 1,
             "have": 0
         },
