@@ -3002,5 +3002,73 @@
             "want": 0,
             "have": 1
         }
+    ],
+    "B4a - Team Rockets Pläne": [
+        {
+            "index": 5,
+            "name": "Serpiroyal",
+            "want": 0,
+            "have": 4
+        },
+        {
+            "index": 7,
+            "name": "Team Rockets Lavados-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 12,
+            "name": "Fennexis",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 30,
+            "name": "Team Rockets Mewtu",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 37,
+            "name": "Demeteros",
+            "want": 0,
+            "have": 3
+        },
+        {
+            "index": 43,
+            "name": "Team Rockets Smogmog-ex",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 74,
+            "name": "Team Rockets Hypno",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 75,
+            "name": "Team Rockets Granforgita",
+            "want": 1,
+            "have": 0
+        },
+        {
+            "index": 76,
+            "name": "Team Rockets Kecleon",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 77,
+            "name": "Wonneira",
+            "want": 0,
+            "have": 2
+        },
+        {
+            "index": 78,
+            "name": "Ferkuli",
+            "want": 0,
+            "have": 3
+        }
     ]
 }
