@@ -46,7 +46,7 @@
             "index": 61,
             "name": "Quappo",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 78,
@@ -57,12 +57,6 @@
         {
             "index": 80,
             "name": "Aquana",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 83,
-            "name": "Arktos",
             "want": 0,
             "have": 1
         },
@@ -335,12 +329,6 @@
             "have": 7
         },
         {
-            "index": 57,
-            "name": "Elevoltek",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 60,
             "name": "Luxtra",
             "want": 0,
@@ -404,7 +392,7 @@
             "index": 129,
             "name": "Porygon-Z",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 143,
@@ -629,12 +617,6 @@
             "have": 1
         },
         {
-            "index": 65,
-            "name": "Donarion",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 66,
             "name": "Choreogel",
             "want": 0,
@@ -680,7 +662,7 @@
             "index": 127,
             "name": "Grandiras",
             "want": 0,
-            "have": 5
+            "have": 4
         },
         {
             "index": 160,
@@ -1173,12 +1155,6 @@
             "have": 1
         },
         {
-            "index": 19,
-            "name": "Papungha",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 21,
             "name": "Yanma",
             "want": 0,
@@ -1493,12 +1469,6 @@
         {
             "index": 256,
             "name": "Stalobor",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 258,
-            "name": "Clavion",
             "want": 0,
             "have": 1
         },
@@ -2487,12 +2457,6 @@
             "have": 1
         },
         {
-            "index": 25,
-            "name": "Victini",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 28,
             "name": "Flambirex",
             "want": 0,
@@ -2717,12 +2681,6 @@
             "have": 1
         },
         {
-            "index": 27,
-            "name": "Eisenkrieger",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 28,
             "name": "Eisenblatt",
             "want": 1,
@@ -2859,12 +2817,6 @@
             "have": 0
         },
         {
-            "index": 50,
-            "name": "Raichu",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 59,
             "name": "Voltolos",
             "want": 0,
@@ -2877,28 +2829,10 @@
             "have": 0
         },
         {
-            "index": 70,
-            "name": "Mewtu",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 82,
-            "name": "Armaldo",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 83,
             "name": "Groudon",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 97,
-            "name": "Galar-Barrikadax",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 103,
