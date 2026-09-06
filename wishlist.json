@@ -2675,12 +2675,6 @@
             "have": 3
         },
         {
-            "index": 19,
-            "name": "Miraidon-ex",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 28,
             "name": "Eisenblatt",
             "want": 1,
@@ -2802,13 +2796,19 @@
             "index": 11,
             "name": "Honweisel-ex",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 35,
             "name": "Mega-Tohaido-ex",
-            "want": 1,
-            "have": 0
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 41,
+            "name": "Kyogre",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 44,
@@ -2821,12 +2821,6 @@
             "name": "Voltolos",
             "want": 0,
             "have": 2
-        },
-        {
-            "index": 68,
-            "name": "Pantimimi",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 83,
@@ -2865,6 +2859,24 @@
             "have": 2
         },
         {
+            "index": 157,
+            "name": "Liliep",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 158,
+            "name": "Zirpeise",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 160,
+            "name": "Ponita",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 161,
             "name": "Igelavar",
             "want": 1,
@@ -2873,6 +2885,12 @@
         {
             "index": 162,
             "name": "Kyogre",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 163,
+            "name": "Admurai",
             "want": 0,
             "have": 1
         },
@@ -2960,7 +2978,7 @@
             "index": 30,
             "name": "Team Rockets Mewtu",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 37,
@@ -3003,6 +3021,12 @@
             "name": "Ferkuli",
             "want": 0,
             "have": 3
+        },
+        {
+            "index": 82,
+            "name": "Team Rockets Laschoking-ex",
+            "want": 0,
+            "have": 1
         }
     ]
 }
