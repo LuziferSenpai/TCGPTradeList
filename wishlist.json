@@ -43,12 +43,6 @@
             "have": 1
         },
         {
-            "index": 61,
-            "name": "Quappo",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 78,
             "name": "Garados",
             "want": 0,
@@ -82,7 +76,7 @@
             "index": 102,
             "name": "Blitza",
             "want": 0,
-            "have": 4
+            "have": 3
         },
         {
             "index": 103,
@@ -127,12 +121,6 @@
             "have": 1
         },
         {
-            "index": 175,
-            "name": "Sleimok",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 182,
             "name": "Melmetal",
             "want": 0,
@@ -141,12 +129,6 @@
         {
             "index": 185,
             "name": "Dragoran",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 203,
-            "name": "Kangama",
             "want": 0,
             "have": 1
         },
@@ -169,28 +151,10 @@
             "have": 1
         },
         {
-            "index": 234,
-            "name": "Lapras",
-            "want": 0,
-            "have": 1
-        },
-        {
-            "index": 235,
-            "name": "Lektrobal",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 238,
             "name": "Digda",
             "want": 0,
             "have": 2
-        },
-        {
-            "index": 245,
-            "name": "Tauboss",
-            "want": 0,
-            "have": 1
         },
         {
             "index": 246,
@@ -623,12 +587,6 @@
             "have": 1
         },
         {
-            "index": 82,
-            "name": "Colossand",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 100,
             "name": "Wolwerock",
             "want": 0,
@@ -705,12 +663,6 @@
             "name": "Kapu-Fala",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 179,
-            "name": "Koalelu",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 218,
@@ -2499,12 +2451,6 @@
             "have": 7
         },
         {
-            "index": 80,
-            "name": "Lucario",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 81,
             "name": "Mega-Lucario-ex",
             "want": 0,
@@ -2583,12 +2529,6 @@
             "have": 1
         },
         {
-            "index": 158,
-            "name": "Knilz",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 159,
             "name": "Knospi",
             "want": 0,
@@ -2617,18 +2557,6 @@
             "name": "Choreogel",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 170,
-            "name": "Meloetta",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 172,
-            "name": "Dakuma",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 174,
@@ -2673,18 +2601,6 @@
             "name": "Eisenbündel-ex",
             "want": 0,
             "have": 3
-        },
-        {
-            "index": 28,
-            "name": "Eisenblatt",
-            "want": 1,
-            "have": 0
-        },
-        {
-            "index": 53,
-            "name": "Windewoge",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 79,
