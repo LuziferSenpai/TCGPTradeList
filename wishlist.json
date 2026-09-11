@@ -2700,7 +2700,7 @@
             "index": 7,
             "name": "Wielie",
             "want": 0,
-            "have": 1
+            "have": 2
         },
         {
             "index": 11,
@@ -2873,6 +2873,12 @@
             "have": 2
         },
         {
+            "index": 14,
+            "name": "Team Rockets Arktos-ex",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 30,
             "name": "Team Rockets Mewtu",
             "want": 0,
@@ -2882,7 +2888,19 @@
             "index": 37,
             "name": "Demeteros",
             "want": 0,
-            "have": 3
+            "have": 4
+        },
+        {
+            "index": 50,
+            "name": "Team Rockets Granforgita",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 56,
+            "name": "Briduradon",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 74,
@@ -2900,7 +2918,7 @@
             "index": 76,
             "name": "Team Rockets Kecleon",
             "want": 0,
-            "have": 1
+            "have": 3
         },
         {
             "index": 77,
