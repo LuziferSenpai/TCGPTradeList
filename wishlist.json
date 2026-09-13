@@ -2635,12 +2635,6 @@
             "have": 2
         },
         {
-            "index": 24,
-            "name": "Dedenne-ex",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 30,
             "name": "Feelinara",
             "want": 0,
@@ -2749,12 +2743,6 @@
             "name": "Metagross",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 120,
-            "name": "Mega-Rayquaza-ex",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 127,
