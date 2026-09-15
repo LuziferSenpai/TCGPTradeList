@@ -1227,12 +1227,6 @@
             "have": 0
         },
         {
-            "index": 100,
-            "name": "Aquana",
-            "want": 1,
-            "have": 0
-        },
-        {
             "index": 101,
             "name": "Arktos-ex",
             "want": 0,
@@ -1417,12 +1411,6 @@
             "name": "Stalobor",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 261,
-            "name": "Magearna",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 263,
@@ -2305,12 +2293,6 @@
     ],
     "B2b - Mega-Schillern": [
         {
-            "index": 9,
-            "name": "Mega-Glurak X-ex",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 20,
             "name": "Impoleon",
             "want": 0,
@@ -2394,7 +2376,7 @@
             "index": 20,
             "name": "Drapfel",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
             "index": 23,
@@ -2425,12 +2407,6 @@
             "name": "Fließender-Angriff-Wulaosu",
             "want": 0,
             "have": 3
-        },
-        {
-            "index": 59,
-            "name": "Zekrom",
-            "want": 0,
-            "have": 1
         },
         {
             "index": 61,
@@ -2691,6 +2667,12 @@
     ],
     "B4 - Herrscher der Lüfte": [
         {
+            "index": 5,
+            "name": "Pudox",
+            "want": 0,
+            "have": 1
+        },
+        {
             "index": 7,
             "name": "Wielie",
             "want": 0,
@@ -2701,6 +2683,12 @@
             "name": "Honweisel-ex",
             "want": 0,
             "have": 2
+        },
+        {
+            "index": 23,
+            "name": "Lavados",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 35,
@@ -2715,10 +2703,10 @@
             "have": 1
         },
         {
-            "index": 44,
-            "name": "Admurai",
-            "want": 1,
-            "have": 0
+            "index": 55,
+            "name": "Rotom-ex",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 59,
@@ -2730,17 +2718,17 @@
             "index": 83,
             "name": "Groudon",
             "want": 0,
-            "have": 1
-        },
-        {
-            "index": 103,
-            "name": "Hoopa-ex",
-            "want": 1,
-            "have": 0
+            "have": 2
         },
         {
             "index": 108,
             "name": "Metagross",
+            "want": 0,
+            "have": 1
+        },
+        {
+            "index": 118,
+            "name": "Dragoran",
             "want": 0,
             "have": 1
         },
@@ -2814,13 +2802,13 @@
             "index": 169,
             "name": "Choreogel",
             "want": 0,
-            "have": 2
+            "have": 1
         },
         {
-            "index": 174,
-            "name": "Genesect",
-            "want": 1,
-            "have": 0
+            "index": 172,
+            "name": "Schluppuck",
+            "want": 0,
+            "have": 1
         },
         {
             "index": 177,
