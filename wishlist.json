@@ -2751,12 +2751,6 @@
             "have": 1
         },
         {
-            "index": 160,
-            "name": "Ponita",
-            "want": 0,
-            "have": 1
-        },
-        {
             "index": 161,
             "name": "Igelavar",
             "want": 1,
@@ -2883,12 +2877,6 @@
             "name": "Team Rockets Hypno",
             "want": 0,
             "have": 1
-        },
-        {
-            "index": 75,
-            "name": "Team Rockets Granforgita",
-            "want": 1,
-            "have": 0
         },
         {
             "index": 76,
