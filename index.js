@@ -1,9 +1,5 @@
 const BASE_URL = "https://luzifersenpai.github.io/tradeListGenerator";
-const tradeListAtom = atomWithStorage("tradelist", { wants: [], haves: [] });
-const needsFilterAtom = atomWithStorage("needsFilter", { name: "", rarity: "all" });
-const haveFilterAtom = atomWithStorage("haveFilter", { name: "", rarity: "all" });
-const needSetsAtom = atom([]);
-const haveSetsAtom = atom([]);
+const RARITIES = ["C Pocket", "U Pocket", "R Pocket", "RR Pocket", "SA Pocket", "SSASR Pocket", "S Pocket", "SSR Pocket"];
 const rarityToDiscordSymbol = {
     "C Pocket": ":small_blue_diamond:",
     "U Pocket": ":small_blue_diamond::small_blue_diamond:",
@@ -14,41 +10,46 @@ const rarityToDiscordSymbol = {
     "S Pocket": ":star2:",
 };
 
+const tradeListAtom = atom({ wants: [], haves: [] }, "tradelist");
+const fields = {
+    want: {
+        storageKey: "needsFilter",
+        wrapperId: "need-sets-accordions",
+        inputId: "needs-name-filter",
+        labelId: "needs-rarity-label",
+        menuId: "needs-rarity-menu",
+    },
+    have: {
+        storageKey: "haveFilter",
+        wrapperId: "have-sets-accordions",
+        inputId: "have-name-filter",
+        labelId: "have-rarity-label",
+        menuId: "have-rarity-menu",
+    },
+};
+
 let rarityOrder = [];
-let allNeedsSets = [];
-let allHaveSets = [];
 let wishlist = [];
 
-function atomWithStorage(key, initialValue) {
+Object.values(fields).forEach(cfg => {
+    cfg.filterAtom = atom({ name: "", rarity: "all" }, cfg.storageKey);
+    cfg.setsAtom = atom([]);
+    cfg.allSets = [];
+    cfg.setName = debounce(name => cfg.filterAtom.set(old => ({ ...old, name })));
+});
+
+function atom(initialValue, storageKey) {
     const listeners = new Set();
-    let value = JSON.parse(localStorage.getItem(key) ?? 'null') ?? initialValue;
+    let value = storageKey
+        ? JSON.parse(localStorage.getItem(storageKey) ?? "null") ?? initialValue
+        : initialValue;
 
     return {
         get: () => value,
         set: (next) => {
-            value = typeof next === 'function' ? next(value) : next;
+            value = typeof next === "function" ? next(value) : next;
 
-            localStorage.setItem(key, JSON.stringify(value));
-            listeners.forEach(fn => fn(value));
-        },
-        subscribe: (fn) => {
-            listeners.add(fn);
-
-            fn(value);
-
-            return () => listeners.delete(fn);
-        }
-    };
-}
-
-function atom(initialValue) {
-    const listeners = new Set();
-    let value = initialValue;
-
-    return {
-        get: () => value,
-        set: (next) => {
-            value = typeof next === 'function' ? next(value) : next;
+            if (storageKey) localStorage.setItem(storageKey, JSON.stringify(value));
 
             listeners.forEach(fn => fn(value));
         },
@@ -76,7 +77,7 @@ function showToast(message, type = "alert-success") {
     const toast = document.getElementById("toast");
     const newAlert = document.createElement("div");
 
-    newAlert.classList.add("alert", type, "rounded-2xl");
+    newAlert.className = `alert ${type}`;
     newAlert.innerHTML = `<span>${message}</span>`;
 
     toast.appendChild(newAlert);
@@ -88,23 +89,26 @@ function raritySrc(rarity) {
     return `${BASE_URL}/rarities/${encodeURIComponent(rarity)}.png`;
 }
 
-const setNeedsNameFilter = debounce(e => needsFilterAtom.set(oldFilter => ({ ...oldFilter, name: e.target.value.toLowerCase() })), 300);
-const setHaveNameFilter = debounce(e => haveFilterAtom.set(oldFilter => ({ ...oldFilter, name: e.target.value.toLowerCase() })), 300);
-
-function setNeedsRarity(rarity) {
-    needsFilterAtom.set(oldFilter => ({ ...oldFilter, rarity }));
-
-    document.activeElement.blur();
+function setKey(set) {
+    return `${set.symbol} - ${set.name}`;
 }
 
-function setHaveRarity(rarity) {
-    haveFilterAtom.set(oldFilter => ({ ...oldFilter, rarity }));
+function cardSrc(setName, card) {
+    return `${BASE_URL}/sets/${setName}/${String(card.index).padStart(3, "0")}.png`;
+}
+
+function setNameFilter(field, event) {
+    fields[field].setName(event.target.value.toLowerCase());
+}
+
+function setRarity(field, rarity) {
+    fields[field].filterAtom.set(old => ({ ...old, rarity }));
 
     document.activeElement.blur();
 }
 
 function addToTrade(setName, card, field) {
-    const key = field === "want" ? "wants" : "haves";
+    const key = `${field}s`;
     const max = (wishlist[setName] ?? []).find(c => c.index === card.index)?.[field] ?? 0;
     const current = tradeListAtom.get()[key].filter(e => e.setName === setName && e.card.index === card.index).length;
 
@@ -120,7 +124,7 @@ function addToTrade(setName, card, field) {
 }
 
 function removeFromTrade(field, index) {
-    const key = field === "want" ? "wants" : "haves";
+    const key = `${field}s`;
 
     tradeListAtom.set(old => ({
         ...old,
@@ -131,39 +135,36 @@ function removeFromTrade(field, index) {
 function tradeEntryElement(entry, field, occurrence) {
     const element = document.createElement("div");
 
-    element.className = "flex p-2 flex-col gap-2 bg-base-200 rounded-2xl cursor-pointer";
+    element.className = "flex p-2 flex-col gap-2 bg-base-300 cursor-pointer";
     element.innerHTML = `
-        <img class="card-img" src="${BASE_URL}/sets/${entry.setName}/${String(entry.card.index).padStart(3, "0")}.png">
+        <img class="card-img" src="${cardSrc(entry.setName, entry.card)}">
         <div class="flex flex-col">
             <span class="text-sm font-semibold truncate">${entry.card.name}</span>
             <span class="text-xs opacity-50 truncate">${entry.setName}</span>
         </div>
     `;
 
-    element.addEventListener("click", () =>
-        removeFromTrade(field, occurrence)
-    );
+    element.addEventListener("click", () => removeFromTrade(field, occurrence));
 
     return element;
 }
 
 function renderSets(wrapperId, sets, field) {
     const wrapper = document.getElementById(wrapperId);
-    const getCount = field === "want" ? e => e.want : e => e.have;
-    const visibleSetNames = new Set(sets.map(set => `${set.symbol} - ${set.name}`));
+    const visibleSetNames = new Set(sets.map(setKey));
 
     wrapper.querySelectorAll(".set-accordion").forEach(accordion => {
         if (!visibleSetNames.has(accordion.name)) accordion.classList.add("hidden!");
     });
 
     sets.forEach(set => {
-        const setName = `${set.symbol} - ${set.name}`;
+        const setName = setKey(set);
         let accordion = wrapper.querySelector(`.set-accordion[name="${setName}"]`);
 
         if (!accordion) {
             accordion = document.createElement("details");
             accordion.name = setName;
-            accordion.classList = "set-accordion collapse join-item border-base-300 border";
+            accordion.className = "set-accordion collapse join-item border border-border";
             accordion.innerHTML = `
                 <summary class="collapse-title cursor-pointer font-semibold">${setName}</summary>
                 <div class="set-accordion-content collapse-content grid w-full h-fit justify-center gap-4"></div>
@@ -184,15 +185,14 @@ function renderSets(wrapperId, sets, field) {
         set.cards.forEach(card => {
             if (content.querySelector(`.card-display[data-card-id="${card.index}"]`)) return;
 
-            const wishedCards = wishlist[setName] ?? [];
-            const entry = wishedCards.find(c => c.index === card.index);
+            const entry = (wishlist[setName] ?? []).find(c => c.index === card.index);
             const cardWrapper = document.createElement("div");
 
             cardWrapper.dataset.cardId = card.index;
-            cardWrapper.classList = "card-display flex relative flex-col gap-2 cursor-pointer"
+            cardWrapper.className = "card-display flex relative flex-col gap-2 cursor-pointer";
             cardWrapper.innerHTML = `
-                <img class="card-img" src="${BASE_URL}/sets/${setName}/${String(card.index).padStart(3, "0")}.png" />
-                <span class="absolute bottom-0 right-0 badge badge-accent mb-1 mr-1 rounded-xl">${getCount(entry)}</span>
+                <img class="card-img" src="${cardSrc(setName, card)}" />
+                <span class="absolute bottom-0 right-0 badge px-2 mb-1 mr-1">${entry[field]}</span>
             `;
 
             cardWrapper.addEventListener("click", () => addToTrade(setName, card, field));
@@ -200,6 +200,14 @@ function renderSets(wrapperId, sets, field) {
             content.appendChild(cardWrapper);
         });
     });
+}
+
+function renderTradeColumn(column, entries, rarity, field) {
+    column.innerHTML = "";
+
+    entries
+        .filter(e => e.card.rarity === rarity)
+        .forEach(entry => column.appendChild(tradeEntryElement(entry, field, entries.indexOf(entry))));
 }
 
 function renderTradeList({ wants, haves }) {
@@ -214,9 +222,7 @@ function renderTradeList({ wants, haves }) {
     }
 
     rarityOrder.forEach(rarity => {
-        const rarityWants = wants.filter(e => e.card.rarity === rarity);
-        const rarityHaves = haves.filter(e => e.card.rarity === rarity);
-        const hasCards = rarityWants.length > 0 || rarityHaves.length > 0;
+        const hasCards = wants.some(e => e.card.rarity === rarity) || haves.some(e => e.card.rarity === rarity);
         let section = tradeGrid.querySelector(`.trade-rarity-section[data-rarity="${rarity}"]`);
 
         if (!section) {
@@ -242,56 +248,40 @@ function renderTradeList({ wants, haves }) {
 
         section.classList.toggle("hidden!", !hasCards);
 
-        const wantsCol = section.querySelector(".trade-wants");
-        const havesCol = section.querySelector(".trade-haves");
-
-        wantsCol.innerHTML = "";
-        havesCol.innerHTML = "";
-
-        rarityWants.forEach((entry, i) => {
-            const occurrence = wants.indexOf(entry);
-
-            wantsCol.appendChild(tradeEntryElement(entry, "want", occurrence));
-        });
-        rarityHaves.forEach((entry, i) => {
-            const occurrence = haves.indexOf(entry);
-
-            havesCol.appendChild(tradeEntryElement(entry, "have", occurrence));
-        });
+        renderTradeColumn(section.querySelector(".trade-wants"), wants, rarity, "want");
+        renderTradeColumn(section.querySelector(".trade-haves"), haves, rarity, "have");
     });
 }
 
 function generateExport() {
     const { wants, haves } = tradeListAtom.get();
+    const cardNames = (entries, rarity) => entries
+        .filter(e => e.card.rarity === rarity)
+        .map(e => `${e.card.name} (${e.setName.split(" - ")[0]})`)
+        .join(", ");
 
     const text = rarityOrder
         .filter(rarity => wants.some(e => e.card.rarity === rarity) || haves.some(e => e.card.rarity === rarity))
-        .map(rarity => {
-            const rarityWants = wants.filter(e => e.card.rarity === rarity);
-            const rarityHaves = haves.filter(e => e.card.rarity === rarity);
-
-            const wantStr = rarityWants.map(e => `${e.card.name} (${e.setName.split(" - ")[0]})`).join(", ");
-            const haveStr = rarityHaves.map(e => `${e.card.name} (${e.setName.split(" - ")[0]})`).join(", ");
-
-            return [
-                `- ${rarityToDiscordSymbol[rarity]}:`,
-                `  - Habe: ${wantStr}`,
-                `  - Brauche: ${haveStr}`,
-            ].join("\n");
-        })
+        .map(rarity => [
+            `- ${rarityToDiscordSymbol[rarity]}:`,
+            `  - Habe: ${cardNames(wants, rarity)}`,
+            `  - Brauche: ${cardNames(haves, rarity)}`,
+        ].join("\n"))
         .join("\n\n");
 
     document.getElementById("export-field").value = text;
-    navigator.clipboard.writeText(text).then(() => showToast("In die Zwischenablage kopiert!"))
+
+    navigator.clipboard.writeText(text).then(() => showToast("In die Zwischenablage kopiert!"));
+}
+
+function rarityMenuItems(field) {
+    return [
+        `<li><a class="text-sm" onclick="setRarity('${field}', 'all')">Alle</a></li>`,
+        ...RARITIES.map(rarity => `<li><a onclick="setRarity('${field}', '${rarity}')"><img src="${raritySrc(rarity)}" class="h-3 object-contain"></a></li>`)
+    ].join("");
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-    document.querySelectorAll(".dropdown-content > li > a > img").forEach(img => img.src = raritySrc(img.dataset.rarity));
-    document.getElementById("needs-name-filter").value = needsFilterAtom.get().name;
-    document.getElementById("have-name-filter").value = haveFilterAtom.get().name;
-
-    const needsRarityDisplay = document.getElementById("needs-rarity-display");
-    const haveRarityDisplay = document.getElementById("have-rarity-display");
     const [wishlistJSON, setsJSON, tradeableJSON] = await Promise.all([
         fetch("./wishlist.json").then(r => r.json()),
         fetch(`${BASE_URL}/sets.json`).then(r => r.json()),
@@ -301,54 +291,34 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     rarityOrder = tradeableJSON;
     wishlist = wishlistJSON;
-    allNeedsSets = allSets
-        .map(set => {
-            const setName = `${set.symbol} - ${set.name}`;
-            const wishedCards = wishlist[setName] ?? [];
 
-            return {
-                ...set,
-                cards: (set.cards ?? []).filter(card => {
-                    const entry = wishedCards.find(c => c.index === card.index);
-
-                    return entry && entry.want > 0;
-                })
-            };
-        })
-        .filter(set => set.cards.length > 0)
-    allHaveSets = allSets
-        .map(set => {
-            const setName = `${set.symbol} - ${set.name}`;
-            const wishedCards = wishlist[setName] ?? [];
-
-            return {
-                ...set,
-                cards: (set.cards ?? []).filter(card => {
-                    const entry = wishedCards.find(c => c.index === card.index);
-
-                    return entry && entry.have > 0;
-                })
-            };
-        })
-        .filter(set => set.cards.length > 0)
-
-    needSetsAtom.subscribe(sets => renderSets("need-sets-accordions", sets, "want"));
-    haveSetsAtom.subscribe(sets => renderSets("have-sets-accordions", sets, "have"));
     tradeListAtom.subscribe(renderTradeList);
 
-    needSetsAtom.set(allNeedsSets);
-    needSetsAtom.set(allHaveSets);
+    Object.entries(fields).forEach(([field, cfg]) => {
+        const rarityLabel = document.getElementById(cfg.labelId);
 
-    needsFilterAtom.subscribe(({ name, rarity }) => {
-        if (rarity === "all") needsRarityDisplay.innerHTML = "Alle";
-        else needsRarityDisplay.innerHTML = `<img src="${raritySrc(rarity)}" class="h-3 object-contain">`;
+        document.getElementById(cfg.menuId).innerHTML = rarityMenuItems(field);
+        document.getElementById(cfg.inputId).value = cfg.filterAtom.get().name;
 
-        needSetsAtom.set(allNeedsSets.map(set => set.cards ? { ...set, cards: set.cards.filter(card => card.name.toLowerCase().includes(name) && (rarity === "all" || card.rarity === rarity)) } : set));
-    });
-    haveFilterAtom.subscribe(({ name, rarity }) => {
-        if (rarity === "all") haveRarityDisplay.innerHTML = "Alle";
-        else haveRarityDisplay.innerHTML = `<img src="${raritySrc(rarity)}" class="h-3 object-contain">`;
+        cfg.allSets = allSets
+            .map(set => {
+                const wishedCards = wishlist[setKey(set)] ?? [];
 
-        haveSetsAtom.set(allHaveSets.map(set => set.cards ? { ...set, cards: set.cards.filter(card => card.name.toLowerCase().includes(name) && (rarity === "all" || card.rarity === rarity)) } : set));
+                return {
+                    ...set,
+                    cards: (set.cards ?? []).filter(card => wishedCards.find(c => c.index === card.index)?.[field] > 0)
+                };
+            })
+            .filter(set => set.cards.length > 0);
+
+        cfg.setsAtom.subscribe(sets => renderSets(cfg.wrapperId, sets, field));
+        cfg.filterAtom.subscribe(({ name, rarity }) => {
+            rarityLabel.innerHTML = rarity === "all" ? "Alle" : `<img src="${raritySrc(rarity)}" class="h-3 object-contain">`;
+
+            cfg.setsAtom.set(cfg.allSets.map(set => ({
+                ...set,
+                cards: set.cards.filter(card => card.name.toLowerCase().includes(name) && (rarity === "all" || card.rarity === rarity))
+            })));
+        });
     });
 });
